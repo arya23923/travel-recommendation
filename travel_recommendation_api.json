@@ -53,7 +53,7 @@
       {
         "id": 1,
         "name": "Angkor Wat, Cambodia",
-        "imageUrl": "images/angkor-wat.jpg",
+        "imageUrl": "./images/angkor-wat.jpg",
         "description": "A UNESCO World Heritage site and the largest religious monument in the world."
       },
       {
