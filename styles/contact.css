@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../images/street-image.jpg");
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-size: cover;
+}
+
+body button:hover, .container a{
+    cursor: pointer;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5%;
+    padding-left: 4%;
+    padding-right: 1%;
+    backdrop-filter: blur(70px);
+    color: white;
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+
+nav .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .container img{
+    width: 4vw;
+    padding: 3%;
+}
+
+nav .container a{
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    padding: 3%;
+    text-decoration: none;
+    color: white;
+}
+
+
+nav .container:nth-child(1){
+    flex-basis: 20vw;
+}
+nav .container:nth-child(2){
+    flex-basis: 40vw;
+    align-self: flex-end;
+    justify-self: flex-end;
+}
+
+main {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    padding: 5%;
+    align-items: center;
+}
+
+main h1{
+    font-size: 60px;
+    margin-top: -10vh;
+}
+
+main > form{
+    display: flex;
+    flex-direction: column;
+    padding: 3% 10% 7% 10%;
+    backdrop-filter: blur(40px);
+    flex-basis: 40vw;
+}
+
+main form label{
+    font-size: 20px;
+    padding: 5%;
+}
+
+main form input{
+    padding: 3% 10% 3% 10%;
+    border: 1px solid white;
+    border-radius: 8px;
+}
+
+main form textarea{
+    padding: 5%;
+    border: 1px solid white;
+    border-radius: 8px;
+}
+
+main form button{
+    padding: 2%;
+    padding-left: 1%;
+    padding-right: 1%;
+    border: 1px solid rgb(254, 241, 159);
+    border-radius: 8px;
+    background-color: rgb(197, 187, 122);
+    font-size: 15px;
+    width: 10vw;
+    margin-top: 5vh;
+    align-self: center;
+}
