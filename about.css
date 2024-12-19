@@ -108,9 +108,9 @@ header {
     font-optical-sizing: auto;
     font-weight: normal;
     font-style: normal;
-    padding: 10%;
+    padding: 5%;
     padding-top: 5%;
-    padding-right: 50%;
+    padding-right: 10%;
     padding-left: 13%;
 }
 
@@ -119,9 +119,15 @@ header h1{
 }
 
 header p{
-    font-size: 25px;
-    padding-top: 5%;
-    padding-bottom: 8%;
+    font-size: 20px;
+}
+
+header .about{
+    backdrop-filter: blur(40px);
+    padding: 4%;
+    border: 1px solid black;
+    border-radius: 16px;
+    margin-left: -3vw;
 }
 
 header button{
@@ -132,5 +138,48 @@ header button{
     border-radius: 8px;
     background-color: rgb(197, 187, 122);
     font-size: 15px;
+}
+
+header .team{
+    display: flex;
+    flex-direction: row;
+    padding: 5%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+header .team .cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    backdrop-filter: blur(40px);
+    padding: 5%;
+}
+
+header .team h2{
+    font-size: 60px;
+    align-self: center;
+    padding: 1.5%;
+}
+
+header .team .cards .card h4{
+    font-size: 30px;
+}
+
+header .team .cards .card p{
+    font-size: 17px;
+    color: rgb(129, 129, 129);
+    padding: 5%;
+    padding-left: 0%;
+}
+
+header .team .cards .card > p:nth-child(3){
+    color: black;
+    justify-self: center;
+    padding: 4%;
+    margin-left: -5vw;
+    background-color: rgb(201, 201, 139);
+    border: 1px solid burlywood;
+    border-radius: 8px;
 }
 
