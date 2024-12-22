@@ -10,10 +10,10 @@ home page:
 <img src="./screenshots/homepage.png">
 
 Recommendations provided:
-<img src="./screenshots/recs.png>
+<img src="./screenshots/recs.png">
 
 About page:
-<img src="./screenshots/about.png>
+<img src="./screenshots/about.png">
 
 Contact us page:
 <img src="./screenshots/contact.png">
