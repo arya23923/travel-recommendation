@@ -62,7 +62,7 @@ search.addEventListener('click', () =>{
 
 magnify.addEventListener('click', () =>{
     let input_value = document.getElementById('input').value.toLowerCase();
-    fetch('../travel_recommendation_api.json')
+    fetch('./travel_recommendation_api.json')
     .then(response => response.json())
     .then(data => {
             console.log('data fetched');
